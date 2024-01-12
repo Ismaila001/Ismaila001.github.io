@@ -6,6 +6,7 @@ body{
 }
 
 section{
+  flex-basis: 30%;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -15,9 +16,13 @@ section{
 }
 
   .ismail-ismail {
-  width: 200px;
-  border-radius: 100px;
-}
+  width: 300px;
+  border-radius: 150px;
+  display: block;
+   margin: 0 auto; 
+    filter: drop-shadow(5px 5px 10px #000000);
+    
+  }
 
 .header { 
   background-image: url('ismail/background3.jpg ');
@@ -27,21 +32,19 @@ section{
   background-attachment: fixed;
   text-shadow: 3px 3px #000;
   font-family: Arial, Helvetica, sans-serif;
-
-  
 }
 
 .section {
   background-image: url('ismail/background4.jpg');
   background-size: cover;
-  font-size: 30px;
+  font-size: 40px;
+  color: black;
 }
-
 .aim {
   background-image: url('ismail/background2.jpg');
 background-size: cover;
-  font-size: 25px;
-  color: white;
+  font-size: 40px;
+  color: black;
   
 }
 
@@ -49,7 +52,7 @@ background-size: cover;
 .contact {
   background-image: url('ismail/background5.jpg');
   background-size: cover;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
   
 }
