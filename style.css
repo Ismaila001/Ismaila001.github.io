@@ -56,3 +56,10 @@ background-size: cover;
   color: white;
   
 }
+
+ nav {
+  background-color: greenyellow;
+  margin: 0.1rem;
+  padding: 1rem 4rem;
+ font-size: 26px;
+}
