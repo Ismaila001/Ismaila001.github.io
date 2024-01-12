@@ -28,7 +28,7 @@ section{
   background-image: url('ismail/background3.jpg ');
   background-size: cover;
   color: white; 
-  font-size: 22px;
+  font-size: 16px;
   background-attachment: fixed;
   text-shadow: 3px 3px #000;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,13 +37,13 @@ section{
 .section {
   background-image: url('ismail/background4.jpg');
   background-size: cover;
-  font-size: 40px;
+  font-size: 16px;
   color: black;
 }
 .aim {
   background-image: url('ismail/background2.jpg');
 background-size: cover;
-  font-size: 40px;
+  font-size: 16px;
   color: black;
   
 }
@@ -52,7 +52,7 @@ background-size: cover;
 .contact {
   background-image: url('ismail/background5.jpg');
   background-size: cover;
-  font-size: 40px;
+  font-size: 16px;
   color: white;
   
 }
