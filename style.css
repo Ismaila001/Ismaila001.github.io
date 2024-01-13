@@ -16,8 +16,8 @@ section{
 }
 
   .ismail-ismail {
-  width: 300px;
-  border-radius: 150px;
+  width: 400px;
+  border-radius: 200px;
   display: block;
    margin: 0 auto; 
     filter: drop-shadow(5px 5px 10px #000000);
@@ -53,7 +53,7 @@ background-size: cover;
   background-image: url('ismail/background5.jpg');
   background-size: cover;
   font-size: 16px;
-  color: white;
+  color: ghostwhite;
   
 }
 
