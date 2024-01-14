@@ -5,6 +5,62 @@ body{
   
 }
 
+.header-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding: 20px 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  font-size: 22px;
+  
+}
+
+.logo{
+  text-decoration: none;
+  color: #000;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: larger;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.navbar a ::before{
+  content:"" ;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: aliceblue;
+  transition: .3;
+  
+}
+  .navbar a:hover::before {
+    width:100%;
+  }
+
+h1{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
 section{
   flex-basis: 30%;
   min-height: 100vh;
@@ -57,27 +113,39 @@ background-size: cover;
   
 }
 
- nav {
-  background-color: navajowhite;
-  margin: 0.1rem;
-  padding: 0rem 4rem;
- font-size: 16px;
- display: flex; align-items: center;
- justify-content: space-between;
- box-sizing: border-box;
-  
- }
+a  {
+  text-decoration: none;
+  color: black;
+} 
  
-  a {
-   text-decoration: none;
-   color: black;
+ footer {
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(93, 97, 149, 0, 26);
+  color: whitesmoke;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+} 
   
+  footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font: 20px;
+    color: white;
   }
-button {
-   background-color: green ;
-   color: white;
-  padding: 1.0rem ;
-border: none;
-font-size: 16px;
-justify-content: center;
- }
+  
+  li a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+ 
