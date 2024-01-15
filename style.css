@@ -20,12 +20,14 @@ body{
   
 }
 
-.My Islamic Diary{
-  text-decoration: none;
-  color: #000;
-  font-size: larger;
-  font-weight: 500;
+.ismail-bg2{
+  width: 15%;
+  border-radius: 150px;
+ 
 }
+
+
+
 
 .navbar a{
   position: relative;
