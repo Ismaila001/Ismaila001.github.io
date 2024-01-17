@@ -10,20 +10,19 @@ body{
   top: 0;
   left: 0;
   width: 80%;
-  padding: 20px 40px;
+  padding: 20px 50px;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  font-size: 18px;
+  font-size: 22px;
   
 }
 
 .ismail-bg2{
-  width: 40px;
-  border-radius: 20px;
-  padding-right: 5px;
+  width: 15%;
+  border-radius: 150px;
  
 }
 
@@ -32,7 +31,7 @@ body{
 
 .navbar a{
   position: relative;
-  font-size: large;
+  font-size: larger;
   font-weight: 500;
   text-decoration: none;
   margin-left: 10px;
@@ -56,11 +55,6 @@ body{
 h1{
   font-size: 30px;
 }
-
-
-
-
-
 
 
 
@@ -116,8 +110,7 @@ a  {
 } 
  
  footer {
-  list-style: none;
-  display: flex;
+ display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -127,8 +120,7 @@ a  {
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 20px;
-  /*text-align: center;*/
+ text-align: center;
 } 
   
   footer ul{
@@ -138,7 +130,7 @@ a  {
     display: flex;
     justify-content: center;
     gap: 20px;
-    font: 20px;
+    font-size: 20px;
     color: white;
   }
   
