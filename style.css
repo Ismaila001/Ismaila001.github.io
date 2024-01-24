@@ -56,6 +56,24 @@ h1{
   font-size: 30px;
 }
 
+.card {
+  border: none;
+  padding: 20px;
+  background-color: #548FD3;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 40%;
+  height: 10vh;
+}
+
+
+
+
+
+
+
+
+
 
 
 section{
@@ -138,11 +156,12 @@ a  {
     text-decoration: none;
     color: whitesmoke;
   }
-  .content{
+  .content { 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     
   }
- 
+  
+  
