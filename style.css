@@ -67,7 +67,17 @@ h1{
 }
 
 
-
+button {
+  width: 150px;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  color: blueviolet;
+  padding: 10px;
+  
+  
+  
+}
 
 
 
