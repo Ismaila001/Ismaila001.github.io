@@ -6,62 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Assignment</title>
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.main.css"/>
-  
-  
-  
   <style>
-  
-  body {display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    font-size: 15px;
-    background-color: blanchedalmond;
-    align-items: center;
-   }
-   
-   button {
-     
-     padding: 5px;
-     font-size: 20px;
-     background-color: goldenrod;
-     color: black;
-     border-radius: 5px;
-     width: 200px;
-     
-   }
-   
-   input, button {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: blanchedalmond;
+      margin: 0;
+      flex-direction: column;
+    }
     
-     height: 30px;
-     border: none;
-     width: 200px
-     
-   }
-  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+    }
     
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    img{
+      height: 70px;
+      width: 70px;
+    }
   </style>
-
-
 </head>
 
 <body>
-
-<i class=" fa-solid fa-envelop"></i>
-<h1>Sign In</h1>
-<br>
-<input type="first Name" placeholder="First Name"/>
-<br>
-<input type="Last Name" placeholder="Last Name"/>
-<br>
-<input type="Email Address" placeholder="Email Address"/>
-<br>
-<input type="Phone Number" placeholder="Phone Number"/>
-<br>
-<button id="click"class="click">Sign Up!</button>
- 
-
+  <img src="Images/images (1).png" alt="envelope">
+  <h1>Please Sign Up</h1>
+  <form action="">
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <input type="number" placeholder="Phone Number">
+    <input type="email" placeholder="E-Mail">
+    <button type="submit">Submit</button>
+  </form>
 </body>
 
 </html>
